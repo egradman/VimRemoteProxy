@@ -4,11 +4,10 @@ Hey,
 
 To install:
 
-- Build it or use the prebuilt package found in Builds (was compiled on Mac OSX
-10.8 64-bit) 
-- Put AtomProxy.app wherever you want 
-- Make sure Atom.app is in the Applications folder 
-- Point Unity's External Editor setting at the *AtomProxy*.app (not Atom.app
+- Build using xcode. This will generate **AtomProxy.app**. 
+- Put **AtomProxy.app** wherever you want 
+- Make sure Atom.app (the Atom editor application) is in the Applications folder.
+- Point Unity's External Editor setting at the **AtomProxy**.app (not Atom.app!)
 
 Now whenever you click on an error line in Unity it should open up to the
 correct place in the Atom Editor.
