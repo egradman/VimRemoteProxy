@@ -1,17 +1,13 @@
-# Atom Proxy
+# Vim Remote Proxy
 
-Hey,
+how it works
 
-To install:
+the executatble uses the event SDK to determine the filename and line number
 
-- Build using xcode. This will generate **AtomProxy.app**. 
-- Put **AtomProxy.app** wherever you want 
-- Make sure Atom.app (the Atom editor application) is in the Applications folder.
-- Point Unity's External Editor setting at the **AtomProxy**.app (not Atom.app!)
+it executes a task `/Users/egradman/bin/vim_proxy line filename`
 
-Now whenever you click on an error line in Unity it should open up to the
-correct place in the Atom Editor.
+That python script calls vim --remote and uses applescript to switch to iterm
 
-Please note that this project is a fork of https://github.com/thinkrad/SublimeProxy.
 
-Props to Tim Keating who got the barebones event handler setup.
+
+
