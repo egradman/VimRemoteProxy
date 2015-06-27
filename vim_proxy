@@ -1,0 +1,17 @@
+#!/usr/local/bin/python
+ 
+import sys
+import subprocess
+
+line = int(sys.argv[1])
+filename = sys.argv[2]
+
+if line < 9999:
+  command = "/usr/local/bin/vim --servername SERVER --remote +%d '%s'" % (line, filename)
+else:
+  command = "/usr/local/bin/vim --servername SERVER --remote  '%s'" % filename
+
+subprocess.call(command, shell=True)
+subprocess.call("""osascript -e 'tell application "iTerm" to activate'""", shell=True)
+
+
