@@ -18,7 +18,7 @@
 - (void)handleAppleEvent:(NSAppleEventDescriptor *)event withReplyEvent:(NSAppleEventDescriptor *)replyEvent {
     NSTask *task;
     task = [[NSTask alloc] init];
-    [task setLaunchPath:@"/Applications/Atom.app/Contents/MacOS/Atom"];
+    [task setLaunchPath:@"/Users/egradman/bin/vim_proxy"];
     
     NSData *eventData = [event data];
     
@@ -35,10 +35,11 @@
     NSString *filepathWithLine = [NSString stringWithFormat:@"%@:%d", filepath, x];
     filepathWithLine = [filepathWithLine stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSArray *arguments;
-    arguments = [NSArray arrayWithObjects: filepathWithLine, nil];
+    arguments = @[filepath, [NSString stringWithFormat:@"%d", x]];
     [task setArguments: arguments];
     
     [task launch];
+    [NSApp terminate:self];
 }
 
 - (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename

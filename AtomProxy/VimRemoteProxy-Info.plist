@@ -22,7 +22,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>AtomProxy</string>
+	<string>VimRemoteProxy</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.arjunnair.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>

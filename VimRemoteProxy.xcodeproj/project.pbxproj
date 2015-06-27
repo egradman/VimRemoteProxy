@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		102B54A61747CFD600977AEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102B54A51747CFD600977AEA /* Cocoa.framework */; };
 		194EF4991AAF12A300A4991B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 194EF48F1AAF12A300A4991B /* AppDelegate.m */; };
-		194EF49A1AAF12A300A4991B /* AtomProxy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 194EF4901AAF12A300A4991B /* AtomProxy-Info.plist */; };
-		194EF49B1AAF12A300A4991B /* AtomProxy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 194EF4921AAF12A300A4991B /* AtomProxy.icns */; };
+		194EF49A1AAF12A300A4991B /* VimRemoteProxy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 194EF4901AAF12A300A4991B /* VimRemoteProxy-Info.plist */; };
+		194EF49B1AAF12A300A4991B /* VimRemoteProxy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 194EF4921AAF12A300A4991B /* VimRemoteProxy.icns */; };
 		194EF49C1AAF12A300A4991B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 194EF4931AAF12A300A4991B /* Credits.rtf */; };
 		194EF49D1AAF12A300A4991B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194EF4951AAF12A300A4991B /* InfoPlist.strings */; };
 		194EF49E1AAF12A300A4991B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 194EF4971AAF12A300A4991B /* main.m */; };
@@ -18,16 +18,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		102B54A21747CFD600977AEA /* AtomProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102B54A21747CFD600977AEA /* VimRemoteProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimRemoteProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		102B54A51747CFD600977AEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		102B54A81747CFD600977AEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		102B54A91747CFD600977AEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		102B54AA1747CFD600977AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		194EF48E1AAF12A300A4991B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		194EF48F1AAF12A300A4991B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		194EF4901AAF12A300A4991B /* AtomProxy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AtomProxy-Info.plist"; sourceTree = "<group>"; };
-		194EF4911AAF12A300A4991B /* AtomProxy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AtomProxy-Prefix.pch"; sourceTree = "<group>"; };
-		194EF4921AAF12A300A4991B /* AtomProxy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AtomProxy.icns; sourceTree = "<group>"; };
+		194EF4901AAF12A300A4991B /* VimRemoteProxy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VimRemoteProxy-Info.plist"; sourceTree = "<group>"; };
+		194EF4911AAF12A300A4991B /* VimRemoteProxy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VimRemoteProxy-Prefix.pch"; sourceTree = "<group>"; };
+		194EF4921AAF12A300A4991B /* VimRemoteProxy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = VimRemoteProxy.icns; sourceTree = "<group>"; };
 		194EF4941AAF12A300A4991B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		194EF4961AAF12A300A4991B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		194EF4971AAF12A300A4991B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,14 +51,14 @@
 			children = (
 				102B54A41747CFD600977AEA /* Frameworks */,
 				102B54A31747CFD600977AEA /* Products */,
-				194EF48D1AAF12A300A4991B /* AtomProxy */,
+				194EF48D1AAF12A300A4991B /* VimRemoteProxy */,
 			);
 			sourceTree = "<group>";
 		};
 		102B54A31747CFD600977AEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				102B54A21747CFD600977AEA /* AtomProxy.app */,
+				102B54A21747CFD600977AEA /* VimRemoteProxy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,28 +82,29 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		194EF48D1AAF12A300A4991B /* AtomProxy */ = {
+		194EF48D1AAF12A300A4991B /* VimRemoteProxy */ = {
 			isa = PBXGroup;
 			children = (
 				194EF48E1AAF12A300A4991B /* AppDelegate.h */,
 				194EF48F1AAF12A300A4991B /* AppDelegate.m */,
-				194EF4901AAF12A300A4991B /* AtomProxy-Info.plist */,
-				194EF4911AAF12A300A4991B /* AtomProxy-Prefix.pch */,
-				194EF4921AAF12A300A4991B /* AtomProxy.icns */,
+				194EF4901AAF12A300A4991B /* VimRemoteProxy-Info.plist */,
+				194EF4911AAF12A300A4991B /* VimRemoteProxy-Prefix.pch */,
+				194EF4921AAF12A300A4991B /* VimRemoteProxy.icns */,
 				194EF4931AAF12A300A4991B /* Credits.rtf */,
 				194EF4951AAF12A300A4991B /* InfoPlist.strings */,
 				194EF4971AAF12A300A4991B /* main.m */,
 				194EF4981AAF12A300A4991B /* MainMenu.xib */,
 			);
+			name = VimRemoteProxy;
 			path = AtomProxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		102B54A11747CFD600977AEA /* AtomProxy */ = {
+		102B54A11747CFD600977AEA /* VimRemoteProxy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 102B54BF1747CFD600977AEA /* Build configuration list for PBXNativeTarget "AtomProxy" */;
+			buildConfigurationList = 102B54BF1747CFD600977AEA /* Build configuration list for PBXNativeTarget "VimRemoteProxy" */;
 			buildPhases = (
 				102B549E1747CFD600977AEA /* Sources */,
 				102B549F1747CFD600977AEA /* Frameworks */,
@@ -113,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = AtomProxy;
+			name = VimRemoteProxy;
 			productName = SublimeProxy;
-			productReference = 102B54A21747CFD600977AEA /* AtomProxy.app */;
+			productReference = 102B54A21747CFD600977AEA /* VimRemoteProxy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +128,7 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Tim Keating";
 			};
-			buildConfigurationList = 102B549D1747CFD600977AEA /* Build configuration list for PBXProject "AtomProxy" */;
+			buildConfigurationList = 102B549D1747CFD600977AEA /* Build configuration list for PBXProject "VimRemoteProxy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				102B54A11747CFD600977AEA /* AtomProxy */,
+				102B54A11747CFD600977AEA /* VimRemoteProxy */,
 			);
 		};
 /* End PBXProject section */
@@ -149,11 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194EF49B1AAF12A300A4991B /* AtomProxy.icns in Resources */,
+				194EF49B1AAF12A300A4991B /* VimRemoteProxy.icns in Resources */,
 				194EF49F1AAF12A300A4991B /* MainMenu.xib in Resources */,
 				194EF49D1AAF12A300A4991B /* InfoPlist.strings in Resources */,
 				194EF49C1AAF12A300A4991B /* Credits.rtf in Resources */,
-				194EF49A1AAF12A300A4991B /* AtomProxy-Info.plist in Resources */,
+				194EF49A1AAF12A300A4991B /* VimRemoteProxy-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +256,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AtomProxy/AtomProxy-Prefix.pch";
-				INFOPLIST_FILE = "AtomProxy/AtomProxy-Info.plist";
+				GCC_PREFIX_HEADER = "AtomProxy/VimRemoteProxy-Prefix.pch";
+				INFOPLIST_FILE = "AtomProxy/VimRemoteProxy-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = AtomProxy;
+				PRODUCT_NAME = VimRemoteProxy;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,10 +269,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AtomProxy/AtomProxy-Prefix.pch";
-				INFOPLIST_FILE = "AtomProxy/AtomProxy-Info.plist";
+				GCC_PREFIX_HEADER = "AtomProxy/VimRemoteProxy-Prefix.pch";
+				INFOPLIST_FILE = "AtomProxy/VimRemoteProxy-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = AtomProxy;
+				PRODUCT_NAME = VimRemoteProxy;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		102B549D1747CFD600977AEA /* Build configuration list for PBXProject "AtomProxy" */ = {
+		102B549D1747CFD600977AEA /* Build configuration list for PBXProject "VimRemoteProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				102B54BD1747CFD600977AEA /* Debug */,
@@ -288,7 +289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		102B54BF1747CFD600977AEA /* Build configuration list for PBXNativeTarget "AtomProxy" */ = {
+		102B54BF1747CFD600977AEA /* Build configuration list for PBXNativeTarget "VimRemoteProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				102B54C01747CFD600977AEA /* Debug */,
